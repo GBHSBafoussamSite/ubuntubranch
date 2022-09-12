@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: beige;
+}
+#icondef{
+    size: 12px;
+    font-size: 12px;
+    float: inherit;
+    margin-left: 15px;
+    position: fixed;
+
+}
+#NavBar{
+    height: 85px;
+    width: 1300px;
+    background: green;
+    position: fixed;
+}
+ul{
+    list-style: none;
+    margin-left: 200px;
+    display: inline-flex;
+    padding: 15px;
+}
+ul li{
+    padding: 25px;
+}
+ul li a{
+    
+    text-decoration: none;
+    color: white;
+}
+.content{
+    display: none;
+    background-color: aqua;
+    position: absolute;
+}
+.content ul{
+    list-style: none;
+}
+.content ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    size: 0px;
+}
+#NavBar ul a:hover {
+    background: rgb(58, 63, 55);
+    border-radius: 5px;
+}
+.MenuBar:hover .content{
+    display: block;
+    margin-top: -65px;
+    display: contents;
+}
